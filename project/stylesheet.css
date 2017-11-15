@@ -1,9 +1,13 @@
 body{
-	background-color:grey;
+	background-color:#eeeeee;
+    background-image:url("images.jpg");
+    background-repeat: repeat-x;
+    /*background-attachment: fixed;*/
+	
 }
 .page-container{
-	border: solid white 1px;
-	background-color:white;
+	border-radius:25px;
+	background-color:#fcfdf4;
 	color:red;
 	width:50%;
 	margin-left:25%;
@@ -20,10 +24,18 @@ body{
 
 header {
     grid-area: header;
+	height:200px;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
 }
 
 footer {
     grid-area: footer;
+	margin-left:25%;
+	margin-right:25%;
+	text-align:center;
+	text-transform:uppercase;
 }
 
 aside {
@@ -35,5 +47,8 @@ main {
 }
 nav{
 	grid-area:nav;
+	text-align:right;
+	margin-left:25%;
+	margin-right:25%;
 	text-align:right;
 }
