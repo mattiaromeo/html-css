@@ -3,20 +3,35 @@ body{
 }
 .page-container{
 	color:#72a71f;
+	display: grid; /* enables the grid layout */
+    grid-template-columns: 25% 75%; /* we define 3 columns, 2 taking up 12% of the space each, the other 76% */
+    grid-template-rows: auto; /* rows will be generated automatically based on the grid-template-areas */
+    grid-template-areas: /* we define a 3 x 3 grid */
+            "header header"
+            "sidebar main" /* The sidebar will take up 24% of the space */
+            "footer footer";
 }
 header,footer{
 	background-color:#72a71f;
 	color:#222222;
+	padding:15px;
+	margin:25px;
 }
 section{
 	border-style:solid;
-	border-color:white;
-	border-width:5px;
+	border-color:#72a71f;
+	border-width:1px;
+	border-bottom-width:10px,
 	/*border: solid 5px white;*/
+	padding:15px;
+	margin:25px;
+	background-color:black;
 }
 #sign-in{
 	background-color:#b94f00;
 	color:white;
+	padding:25px;
+	margin:25px;
 }
 h2{
 	text-transform: uppercase;
@@ -29,6 +44,21 @@ a:hover{
 }
 input{
 	font-size:large;
+}
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
 }
 
 
