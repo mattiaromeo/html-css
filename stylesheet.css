@@ -1,0 +1,38 @@
+body{
+	background-color:#222222;
+}
+.page-container{
+	color:#72a71f;
+}
+header,footer{
+	background-color:#72a71f;
+	color:#222222;
+}
+section{
+	border-style:solid;
+	border-color:white;
+	border-width:5px;
+	/*border: solid 5px white;*/
+}
+#sign-in{
+	background-color:#b94f00;
+	color:white;
+}
+h2{
+	text-transform: uppercase;
+}
+a{
+	color:orange;
+}
+a:hover{
+	color:red;
+}
+input{
+	font-size:large;
+}
+
+
+
+
+
+
