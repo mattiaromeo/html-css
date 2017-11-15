@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Half-Life Fansite: The best game ever is Half-Life 2</title>
+	<meta charset="UTF-8">
 </head>
 
 <body>
@@ -19,7 +20,27 @@
 	</header>
 	<aside>
 	<h2>Please sign in</h2>
-	<p>No content so far</p>
+	<form>
+	<label for="email">Email: </label>
+	<input type="email" name="email"> <br>
+	<label for="password">Password: </label>
+	<input type="text" name="password"> <br>
+	<label for="country">Country: </label>
+		<input list="country">
+	<datalist id="country">
+		<option value="Belgium">
+		<option value="France">
+		<option value="Germany">
+	</datalist> <br>
+	<select name="role">
+		<option value="admin">admin</option>
+		<option value="moderator" selected>moderator</option>
+		<option value="user" >user</option>
+	</select> <br>
+	<label for="login">Stay logged in?   </label>
+	<input type="checkbox" id="stayloggedincheckbox" name="stayloggedincheckbox" value="true"><br>
+	<input type="button" value="Submit">
+	</form>
 	</aside>
 <section id="about">
 <h3>About:</h3>
@@ -33,7 +54,21 @@
    <li>Genre: First-person shooter</li>
 </ul>
 </section>
+<section id="half-life-games">
+<h3>Half Life games<h3>
+<table>
+<thead>
+<tr><th>Games</th></tr>
+</thead>
+<tbody>
+<tr><td>Half-Life 1</td></tr>
+<tr><td>Half-Life 2</td></tr>
+<tr><td>Half-Life 2: Episode 1 & 2</td></tr>
+</tbody>
+</table>
+</section>
 <footer><p>Half-Life 2 fansite - Some rights reserved</p></footer>
 </div>
+
 </body>
 </html>

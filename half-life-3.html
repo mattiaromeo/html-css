@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Half-Life Fansite: The best game ever could have been Half-Life 3</title>
+<meta charset="UTF-8">
 </head>
 <body>
 <p>I sit outside as the birds glide, 
@@ -11,5 +12,43 @@ The birds have only one eye?
 This must mean Half Life 3 is a lie!</p>
 
 <a href="index.html" target="_self">Go back</a>
+
+
+<form>
+     <label for="a-color">Color: </label>
+	 <input type="color" name="a-color" value="#ffff00"> <br>
+	 <label for="birthday">Birthday: </label>
+	 <input type="date" name="birthday" min="1901-01-01"> <br>
+     Birthday (date-time) <input type="datetime-local" name="birthday-time"> <br>
+     Birthday (month-year) <input type="month" name="birthday-month"> <br>
+     Week <input type="week" name="week-year"> <br>
+     Time <input type="time" name="a-time"> <br>
+     Email <input type="email" name="email"> <br>
+     Amount <input type="number" name="quantity" min="1" max="10"> <br>
+     Score <input type="range" name="points" min="0" max="100"> <br>
+     Telephone number <input type="tel" name="telephone-number"> <br>
+     Url <input type="url" name="my-page"> <br>
+     Search <input type="search" name="my-search"> <br>
+	 
+	 
+	<select name="cat-names">
+	  <option value="bubbles">Bubbles</option>
+	  <option value="kittycat">Kittycat</option>
+	  <option value="mistermiauw">Mister Miauw</option>
+	  <option value="" selected>Select the name of your cat</option>
+	</select> <br>
+
+	<textarea name="text-message" rows="10" cols="30">write your message here ... 
+	</textarea><br>
+	<input list="best-games-ever-made">
+	<datalist id="best-games-ever-made">
+		<option value="Half-Life 2">
+		<option value="Half-Life">
+		<option value="Freddy Fish">
+	</datalist> 
+</form>
+
+
+
 </body>
 </html>
