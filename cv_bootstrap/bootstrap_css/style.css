@@ -1,13 +1,19 @@
-.background1{
-    background-image:url("images\rosombolmo.jpg");
+.background1 {
+    background-image: url("images\rosombolmo.jpg");
     background-repeat: no-repeat;
 }
-.background2{
-    background-image:url("images\airolo.jpg");
+
+.background2 {
+    background-image: url("images\airolo.jpg");
+    background-repeat: no-repeat;
 }
-.background3{
-    background-image:url("images\backyard.jpg");
+
+.background3 {
+    background-image: url("images\backyard.jpg");
+    background-repeat: no-repeat;
 }
-.background4{
-    background-image:url("images\campoimperatore.jpg");
+
+.background4 {
+    background-image: url("images\campoimperatore.jpg");
+    background-repeat: no-repeat;
 }
