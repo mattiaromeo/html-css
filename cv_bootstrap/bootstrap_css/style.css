@@ -1,19 +1,32 @@
+.background0 {
+    background-color: lightgrey;
+    text-align: right;
+}
+
 .background1 {
-    background-image: url("images\rosombolmo.jpg");
-    background-repeat: no-repeat;
+    padding: 10%;
+    background-color: lightcoral;
+    height: 100vh;
 }
 
 .background2 {
-    background-image: url("images\airolo.jpg");
-    background-repeat: no-repeat;
+    padding: 10%;
+    background-color: lightseagreen;
+    height: 100vh;
 }
 
 .background3 {
-    background-image: url("images\backyard.jpg");
-    background-repeat: no-repeat;
+    padding: 10%;
+    background-color: lightblue;
+    height: 100vh;
 }
 
 .background4 {
-    background-image: url("images\campoimperatore.jpg");
-    background-repeat: no-repeat;
+    padding: 10%;
+    background-color: lightyellow;
+    height: 100vh;
+}
+
+.background5 {
+    background-color: lightgoldenrodyellow;
 }
